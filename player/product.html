@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        .gallary{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            margin: 50px 0;
+        }
+        .conter{
+            width: 30%;
+            margin: 15px;
+            float: left;
+            border-radius: 20px;
+            padding-top: 10px;
+            box-shadow: 0 15px 25px rgb(0, 0,0,25)
+            0 10px 10px rgb(0,0,0,22);
+            transition: .4s;
+            background: #f2f2f2;
+        }
+        .conter:hover{
+            box-shadow: #f2f2f2;
+            transform: translate(0px,-8px);
+        }
+        .h4{
+            text-align:center;
+            font-size: 30px;
+            margin: 0;
+            padding-top: 10px;
+        }
+        img{
+            width: 400px;
+            height: 400px;
+            text-align: center;
+            margin: 0 auto;
+            display: block;
+        }
+        img:hover{
+            transform: scale(1,2);
+            transition: 3s;
+
+        }
+        p{
+            text-align:center;
+            color: brown;
+            padding-top: 0 8px;
+        }
+        h6{
+            font-size: 30px;
+            text-align:center;
+            color: black;
+            margin: 0;
+        }
+        h5{
+            font-size: 20px;
+            text-align: center;
+            margin: 0;
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 0;
+        }
+        li{
+            padding-top: 5px;
+        }
+        .fa{
+            font-size: 25px;
+            transition: .4s;
+            margin: 3px;
+        }
+        .checked{
+            color: #ff9f43;
+        }
+        .fa:hover{
+            transform: scale(1,3);
+            transition: 6s;
+        }
+        button{
+            text-align:center;
+            font-size: 25px;
+            color:#fff;
+            width: 100%;
+            padding: 15px;
+            border: 0;
+            border-radius: 20px;
+            margin-top: 5px;
+
+        }
+        .buy-1{
+            background-color: #2183a2;
+        }
+        .buy-2{
+            background-color: #3b3e6e;
+        }
+        .buy-3{
+            background-color: #0b0b0b;
+        }
+        .buy-5{
+            background-color: #3b3e6e;
+            width: 200px;
+        }
+        @media screen and (max-width:576px){
+            .gallary{
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+            }
+            .conter{
+                background-color: #3b3e6e;
+            }
+            
+        }
+        
+        
+        
+       
+
+
+    </style>
+</head>
+<body>
+    <div class="gallary">
+         <div class="conter">
+             <img src="image/fair.png" alt="">
+             <h4>Glow & Lovely Face Cream (BB) Blemish Balm 18g</h4>
+              <button class="buy-5 ">SALF</button>
+             <h6>$132.00</h6>
+           <ul>
+             <li> <i class="fa fa-star checked"></i></li>
+             <li> <i class="fa fa-star checked"></i></li>
+             <li> <i class="fa fa-star checked"></i></li>
+             <li> <i class="fa fa-star checked "></i></li>
+             <li> <i class="fa fa-star "></i></li>
+          </ul>
+           <div><h5>30ml</h5></div>
+          <button class="buy-1">ADD TO CART</button>
+        </div>
+    
+
+        <div class="conter">
+            <img src="image/clear.png" alt="">
+            <h4>NEUTROGENA Refreshingly Clear Facial Wash</h4>
+          <button class="buy-1">SALF</button>
+          <h6>$850.00</h6>
+          <ul>
+           <li> <i class="fa fa-star checked"></i></li>
+           <li> <i class="fa fa-star checked"></i></li>
+           <li> <i class="fa fa-star checked"></i></li>
+           <li> <i class="fa fa-star "></i></li>
+           <li> <i class="fa fa-star "></i></li>
+          </ul>
+          <div><h5>20ml</h5></div>
+          <button class="buy-2">ADD TO CART</button>
+         
+      </div>
+
+
+            <div class="conter">
+                <img src="image/ponds.png" alt="">
+                <h4>Ponds BB+ Cream Instant Spot Coverage + Light Make-up Glow Ivory</h4>
+                <button class="buy-3">SALF</button>
+                <h6>$299.00</h6>
+              <ul>
+               <li> <i class="fa fa-star checked"></i></li>
+               <li> <i class="fa fa-star checked"></i></li>
+               <li> <i class="fa fa-star checked"></i></li>
+               <li> <i class="fa fa-star checked "></i></li>
+               <li> <i class="fa fa-star checked"></i></li>
+             </ul>
+             <div><h5>30ml</h5></div>
+             <button class="buy-3">ADD TO CART</button>
+           </div>
+    </div>
+
+    
+             <div class="conter">
+                    <img src="image/spf.png" alt="">
+                    <h4>Lakme Sun Expert Ultra Matte SPF 40 PA+++ Compact</h4>
+                    <button class="buy-2" >SALF</button>
+                    <h6>$575.00</h6>
+                  <ul>
+                   <li> <i class="fa fa-star checked"></i></li>
+                   <li> <i class="fa fa-star checked"></i></li>
+                   <li> <i class="fa fa-star checked"></i></li>
+                   <li> <i class="fa fa-star checked"></i></li>
+                   <li> <i class="fa fa-star "></i></li>
+                 </ul>
+                 <div><h5>20ml</h5></div>
+                 <button class="buy-1">ADD TO CART</button>
+            </div>
+   
+
+    
+         <div class="conter">
+            <img src="image/pink.png" alt="">
+            <h4>Glow & Lovely Face Cream (BB) Blemish Balm 18</h4>
+             <button class="buy-3">SALF</button>
+             <h6>$150.00</h6>
+             <ul>
+                <li> <i class="fa fa-star checked"></i></li>
+                <li> <i class="fa fa-star checked"></i></li>
+                 <li> <i class="fa fa-star checked"></i></li>
+                <li> <i class="fa fa-star "></i></li>
+                 <li> <i class="fa fa-star "></i></li>
+                       
+             </ul>
+             <div><h5>20ml</h5></div>
+             <button class="buy-2">ADD TO CART</button>
+         </div>   
+     
+
+     
+        <div class="conter">
+             <img src="image/tgel.png" alt="">
+             <h4>Neutrogena T/Gel Oily Scalp Anti-Dandruff Shampoo</h4>
+             <button class="buy-1">SALF</button>
+             <h6>$1350.00</h6>
+            <ul>
+              <li> <i class="fa fa-star checked"></i></li>
+              <li> <i class="fa fa-star checked"></i></li>
+              <li> <i class="fa fa-star checked"></i></li>
+              <li> <i class="fa fa-star checked "></i></li>
+              <li> <i class="fa fa-star "></i></li>
+            </ul>
+            <div><h5>40ml</h5></div>
+            <button class="buy-3">ADD TO CART</button>
+        </div>
+    
+     
+         <div class="conter">
+             <img src="image/oil.png" alt="">
+              <h4>Glow & Lovely Face Cream (BB) Blemish Balm 18g</h4>
+              <button class="buy-2">SALF</button>
+              <h6>$599.00</h6>
+             <ul>
+                 <li> <i class="fa fa-star checked"></i></li>
+                 <li> <i class="fa fa-star checked"></i></li>
+                 <li> <i class="fa fa-star checked"></i></li>
+                 <li> <i class="fa fa-star "></i></li>
+                 <li> <i class="fa fa-star "></i></li>
+            </ul>
+            <div><h5>40ml</h5></div>
+            <button class="buy-1">ADD TO CART</button>
+        </div>
+    
+        <div class="conter">
+            <img src="image/lakme.png" alt="">
+             <h4>Lakme Insta-Liner Water Resistant Eyeliner</h4>
+             <button class="buy-1">SALF</button>
+             <h6>$295.00</h6>
+            <ul>
+                <li> <i class="fa fa-star checked"></i></li>
+                <li> <i class="fa fa-star checked"></i></li>
+                <li> <i class="fa fa-star checked"></i></li>
+                <li> <i class="fa fa-star "></i></li>
+                <li> <i class="fa fa-star "></i></li>
+           </ul>
+           <div><h5>20ml</h5></div>
+           <button class="buy-2">ADD TO CART</button>
+       </div>
+    </div>
+
+   
+        <div class="conter">
+            <img src="image/brush.png" alt="">
+             <h4>Groome Make Up Brush set ( Bamboo)</h4>
+             <button class="buy-3">SALF</button>
+             <h6>$480.00</h6>
+            <ul>
+                <li> <i class="fa fa-star checked"></i></li>
+                <li> <i class="fa fa-star checked"></i></li>
+                <li> <i class="fa fa-star checked"></i></li>
+                <li> <i class="fa fa-star "></i></li>
+                <li> <i class="fa fa-star "></i></li>
+           </ul>
+           <div><h5>30ml</h5></div>
+           <button class="buy-3">ADD TO CART</button>
+       </div>
+    </div>
+</body>
+</html>
